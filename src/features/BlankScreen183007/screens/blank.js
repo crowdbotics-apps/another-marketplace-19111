@@ -582,7 +582,7 @@ export class _Blank extends React.Component {
                           placeholder="Andrew Moore"
                           editable={true}
                           textStyle={{
-                            fontSize: 12,
+                            fontSize: 17,
                             color: "#000000",
                             textAlign: "left"
                           }}
@@ -594,12 +594,12 @@ export class _Blank extends React.Component {
                             marginBottom: 5,
                             paddingLeft: 5,
                             paddingRight: 5,
-                            paddingTop: 5,
+                            paddingTop: 15,
                             paddingBottom: 5,
                             overflow: "visible",
                             textAlign: "left",
                             verticalAlign: "baseline",
-                            fontSize: 12,
+                            fontSize: 17,
                             color: "#000000",
                             backgroundColor: "#ffffff",
                             fontFamily: "Roboto-Regular",
@@ -670,7 +670,7 @@ export class _Blank extends React.Component {
                             overflow: "visible",
                             textAlign: "left",
                             verticalAlign: "baseline",
-                            fontSize: 12,
+                            fontSize: 14,
                             color: "#fd6f80",
                             backgroundColor: "#ffffff",
                             fontFamily: "Roboto-Regular",
@@ -980,12 +980,12 @@ export class _Blank extends React.Component {
                             marginBottom: 5,
                             paddingLeft: 5,
                             paddingRight: 5,
-                            paddingTop: 5,
+                            paddingTop: 15,
                             paddingBottom: 5,
                             overflow: "visible",
                             textAlign: "left",
                             verticalAlign: "baseline",
-                            fontSize: 12,
+                            fontSize: 17,
                             color: "#000000",
                             backgroundColor: "#ffffff",
                             fontFamily: "Roboto-Regular",
@@ -1054,8 +1054,8 @@ export class _Blank extends React.Component {
                             overflow: "visible",
                             textAlign: "left",
                             verticalAlign: "baseline",
-                            fontSize: 12,
-                            color: "#000000",
+                            fontSize: 14,
+                            color: "#fd6f80",
                             backgroundColor: "#ffffff",
                             fontFamily: "Roboto-Regular",
                             borderColor: "#000000",
@@ -1355,7 +1355,41 @@ export class _Blank extends React.Component {
                           borderRadius: 0,
                           backgroundSize: "auto"
                         }}
-                      />
+                      >
+                        <Text
+                          style={{
+                            marginLeft: 0,
+                            marginRight: 0,
+                            marginTop: 5,
+                            marginBottom: 5,
+                            paddingLeft: 5,
+                            paddingRight: 5,
+                            paddingTop: 15,
+                            paddingBottom: 5,
+                            overflow: "visible",
+                            textAlign: "left",
+                            verticalAlign: "baseline",
+                            fontSize: 17,
+                            color: "#000000",
+                            backgroundColor: "#ffffff",
+                            fontFamily: "Roboto-Regular",
+                            borderColor: "#000000",
+                            borderStyle: "solid",
+                            borderWidth: 0,
+                            borderLeftWidth: 0,
+                            borderRightWidth: 0,
+                            borderTopWidth: 0,
+                            borderBottomWidth: 0,
+                            borderRadius: 0,
+                            textDecorationLine: "none",
+                            textTransform: "none",
+                            lineHeight: 12,
+                            letterSpacing: 0
+                          }}
+                        >
+                          Michael Scott
+                        </Text>
+                      </View>
                       <View
                         style={{
                           width: "100%",
@@ -1390,7 +1424,41 @@ export class _Blank extends React.Component {
                           borderRadius: 0,
                           backgroundSize: "auto"
                         }}
-                      />
+                      >
+                        <Text
+                          style={{
+                            marginLeft: 0,
+                            marginRight: 0,
+                            marginTop: 5,
+                            marginBottom: 5,
+                            paddingLeft: 5,
+                            paddingRight: 5,
+                            paddingTop: 5,
+                            paddingBottom: 5,
+                            overflow: "visible",
+                            textAlign: "left",
+                            verticalAlign: "baseline",
+                            fontSize: 12,
+                            color: "#747886",
+                            backgroundColor: "#ffffff",
+                            fontFamily: "Roboto-Regular",
+                            borderColor: "#000000",
+                            borderStyle: "solid",
+                            borderWidth: 0,
+                            borderLeftWidth: 0,
+                            borderRightWidth: 0,
+                            borderTopWidth: 0,
+                            borderBottomWidth: 0,
+                            borderRadius: 0,
+                            textDecorationLine: "none",
+                            textTransform: "none",
+                            lineHeight: 12,
+                            letterSpacing: 0
+                          }}
+                        >
+                          Sorry this item has been sold.
+                        </Text>
+                      </View>
                     </View>
                   </View>
                   <View
