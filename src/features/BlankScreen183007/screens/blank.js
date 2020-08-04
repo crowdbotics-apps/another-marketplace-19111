@@ -181,7 +181,7 @@ export class _Blank extends React.Component {
                 fontSize: 20,
                 color: "#ffffff",
                 backgroundColor: "#fd6f80",
-                fontFamily: "Helvetica-Regular",
+                fontFamily: "Roboto-Regular",
                 borderColor: "#000000",
                 borderStyle: "solid",
                 borderWidth: 0,
@@ -402,7 +402,7 @@ export class _Blank extends React.Component {
                         borderTopWidth: 0,
                         borderBottomWidth: 0,
                         borderRadius: 0,
-                        fontFamily: "Helvetica-Regular"
+                        fontFamily: "Roboto-Regular"
                       }}
                     />
                   </View>
@@ -469,7 +469,7 @@ export class _Blank extends React.Component {
                         borderTopWidth: 0,
                         borderBottomWidth: 0,
                         borderRadius: 0,
-                        fontFamily: "Helvetica-Regular"
+                        fontFamily: "Roboto-Regular"
                       }}
                     />
                   </View>
@@ -602,7 +602,7 @@ export class _Blank extends React.Component {
                             fontSize: 12,
                             color: "#000000",
                             backgroundColor: "#ffffff",
-                            fontFamily: "Helvetica-Regular",
+                            fontFamily: "Roboto-Regular",
                             borderColor: "#000000",
                             borderStyle: "solid",
                             borderWidth: 0,
@@ -673,7 +673,7 @@ export class _Blank extends React.Component {
                             fontSize: 12,
                             color: "#fd6f80",
                             backgroundColor: "#ffffff",
-                            fontFamily: "Helvetica-Regular",
+                            fontFamily: "Roboto-Regular",
                             borderColor: "#000000",
                             borderStyle: "solid",
                             borderWidth: 0,
@@ -711,7 +711,7 @@ export class _Blank extends React.Component {
                       fontSize: 12,
                       color: "#000000",
                       backgroundColor: "#ffffff",
-                      fontFamily: "Helvetica-Regular",
+                      fontFamily: "Roboto-Regular",
                       flexDirection: "column",
                       flexWrap: "wrap",
                       justifyContent: "flex-start",
@@ -836,10 +836,14 @@ export class _Blank extends React.Component {
                     }}
                   >
                     <Image
-                      resizeMode="cover"
+                      resizeMode="contain"
+                      source={{
+                        uri:
+                          "https://d3tklmlrp1a8c2.cloudfront.net/media/project_component_resources/sara.png"
+                      }}
                       style={{
-                        width: "100%",
-                        height: 200,
+                        width: "84%",
+                        height: 80,
                         marginLeft: 0,
                         marginRight: 0,
                         marginTop: 0,
@@ -859,7 +863,7 @@ export class _Blank extends React.Component {
                         borderTopWidth: 0,
                         borderBottomWidth: 0,
                         borderRadius: 0,
-                        fontFamily: "Helvetica-Regular"
+                        fontFamily: "Roboto-Regular"
                       }}
                     />
                   </View>
@@ -951,7 +955,7 @@ export class _Blank extends React.Component {
                           fontSize: 12,
                           color: "#000000",
                           backgroundColor: "#ffffff",
-                          fontFamily: "Helvetica-Regular",
+                          fontFamily: "Roboto-Regular",
                           flexDirection: "column",
                           flexWrap: "wrap",
                           justifyContent: "flex-start",
@@ -967,7 +971,41 @@ export class _Blank extends React.Component {
                           borderRadius: 0,
                           backgroundSize: "auto"
                         }}
-                      />
+                      >
+                        <Text
+                          style={{
+                            marginLeft: 0,
+                            marginRight: 0,
+                            marginTop: 5,
+                            marginBottom: 5,
+                            paddingLeft: 5,
+                            paddingRight: 5,
+                            paddingTop: 5,
+                            paddingBottom: 5,
+                            overflow: "visible",
+                            textAlign: "left",
+                            verticalAlign: "baseline",
+                            fontSize: 12,
+                            color: "#000000",
+                            backgroundColor: "#ffffff",
+                            fontFamily: "Roboto-Regular",
+                            borderColor: "#000000",
+                            borderStyle: "solid",
+                            borderWidth: 0,
+                            borderLeftWidth: 0,
+                            borderRightWidth: 0,
+                            borderTopWidth: 0,
+                            borderBottomWidth: 0,
+                            borderRadius: 0,
+                            textDecorationLine: "none",
+                            textTransform: "none",
+                            lineHeight: 12,
+                            letterSpacing: 0
+                          }}
+                        >
+                          Sara Dunn
+                        </Text>
+                      </View>
                       <View
                         style={{
                           width: "100%",
@@ -986,7 +1024,7 @@ export class _Blank extends React.Component {
                           fontSize: 12,
                           color: "#000000",
                           backgroundColor: "#ffffff",
-                          fontFamily: "Helvetica-Regular",
+                          fontFamily: "Roboto-Regular",
                           flexDirection: "column",
                           flexWrap: "wrap",
                           justifyContent: "flex-start",
@@ -1002,7 +1040,41 @@ export class _Blank extends React.Component {
                           borderRadius: 0,
                           backgroundSize: "auto"
                         }}
-                      />
+                      >
+                        <Text
+                          style={{
+                            marginLeft: 0,
+                            marginRight: 0,
+                            marginTop: 5,
+                            marginBottom: 5,
+                            paddingLeft: 5,
+                            paddingRight: 5,
+                            paddingTop: 5,
+                            paddingBottom: 5,
+                            overflow: "visible",
+                            textAlign: "left",
+                            verticalAlign: "baseline",
+                            fontSize: 12,
+                            color: "#000000",
+                            backgroundColor: "#ffffff",
+                            fontFamily: "Roboto-Regular",
+                            borderColor: "#000000",
+                            borderStyle: "solid",
+                            borderWidth: 0,
+                            borderLeftWidth: 0,
+                            borderRightWidth: 0,
+                            borderTopWidth: 0,
+                            borderBottomWidth: 0,
+                            borderRadius: 0,
+                            textDecorationLine: "none",
+                            textTransform: "none",
+                            lineHeight: 12,
+                            letterSpacing: 0
+                          }}
+                        >
+                          Counter: $35
+                        </Text>
+                      </View>
                     </View>
                   </View>
                   <View
@@ -1023,7 +1095,7 @@ export class _Blank extends React.Component {
                       fontSize: 12,
                       color: "#000000",
                       backgroundColor: "#ffffff",
-                      fontFamily: "Helvetica-Regular",
+                      fontFamily: "Roboto-Regular",
                       flexDirection: "column",
                       flexWrap: "wrap",
                       justifyContent: "flex-start",
@@ -1148,10 +1220,14 @@ export class _Blank extends React.Component {
                     }}
                   >
                     <Image
-                      resizeMode="cover"
+                      resizeMode="contain"
+                      source={{
+                        uri:
+                          "https://d3tklmlrp1a8c2.cloudfront.net/media/project_component_resources/michael.png"
+                      }}
                       style={{
-                        width: "100%",
-                        height: 200,
+                        width: "80%",
+                        height: 80,
                         marginLeft: 0,
                         marginRight: 0,
                         marginTop: 0,
@@ -1171,7 +1247,7 @@ export class _Blank extends React.Component {
                         borderTopWidth: 0,
                         borderBottomWidth: 0,
                         borderRadius: 0,
-                        fontFamily: "Helvetica-Regular"
+                        fontFamily: "Roboto-Regular"
                       }}
                     />
                   </View>
@@ -1263,7 +1339,7 @@ export class _Blank extends React.Component {
                           fontSize: 12,
                           color: "#000000",
                           backgroundColor: "#ffffff",
-                          fontFamily: "Helvetica-Regular",
+                          fontFamily: "Roboto-Regular",
                           flexDirection: "column",
                           flexWrap: "wrap",
                           justifyContent: "flex-start",
@@ -1298,7 +1374,7 @@ export class _Blank extends React.Component {
                           fontSize: 12,
                           color: "#000000",
                           backgroundColor: "#ffffff",
-                          fontFamily: "Helvetica-Regular",
+                          fontFamily: "Roboto-Regular",
                           flexDirection: "column",
                           flexWrap: "wrap",
                           justifyContent: "flex-start",
@@ -1335,7 +1411,7 @@ export class _Blank extends React.Component {
                       fontSize: 12,
                       color: "#000000",
                       backgroundColor: "#ffffff",
-                      fontFamily: "Helvetica-Regular",
+                      fontFamily: "Roboto-Regular",
                       flexDirection: "column",
                       flexWrap: "wrap",
                       justifyContent: "flex-start",
@@ -1372,7 +1448,7 @@ export class _Blank extends React.Component {
                   fontSize: 12,
                   color: "#000000",
                   backgroundColor: "#ffffff",
-                  fontFamily: "Helvetica-Regular",
+                  fontFamily: "Roboto-Regular",
                   flexDirection: "column",
                   flexWrap: "wrap",
                   justifyContent: "flex-start",
@@ -1409,7 +1485,7 @@ export class _Blank extends React.Component {
               fontSize: 12,
               color: "#000000",
               backgroundColor: "#ffffff",
-              fontFamily: "Helvetica-Regular",
+              fontFamily: "Roboto-Regular",
               flexDirection: "column",
               flexWrap: "wrap",
               justifyContent: "flex-start",
