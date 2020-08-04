@@ -22,7 +22,7 @@ export class _Blank extends React.Component {
     }
   }
 
-  state = { Input_120: "" }
+  state = {}
 
   render = () => (
     <View
@@ -578,16 +578,8 @@ export class _Blank extends React.Component {
                           backgroundSize: "auto"
                         }}
                       >
-                        <Input
-                          placeholder="Andrew Moore"
-                          editable={true}
-                          textStyle={{
-                            fontSize: 17,
-                            color: "#000000",
-                            textAlign: "left"
-                          }}
+                        <Text
                           style={{
-                            width: "100%",
                             marginLeft: 0,
                             marginRight: 0,
                             marginTop: 5,
@@ -616,11 +608,9 @@ export class _Blank extends React.Component {
                             lineHeight: 12,
                             letterSpacing: 0
                           }}
-                          value={this.state.Input_120}
-                          onChangeText={nextValue =>
-                            this.setState({ Input_120: nextValue })
-                          }
-                        />
+                        >
+                          Andrew Moore
+                        </Text>
                       </View>
                       <View
                         style={{
